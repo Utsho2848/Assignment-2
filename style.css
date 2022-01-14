@@ -138,3 +138,33 @@ collection css
 /*----------------------------
  footer css 
  ------------------------------*/
+ footer{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #041E42;
+    padding:50px;
+ }
+ .footer-info h2,p{
+     color:#FFFFFF;
+ }
+ .footer-info h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+ }
+ .footer-info p{
+    font-weight: bold;
+font-size: 14px;
+line-height: 24px;
+ }
+ 
+ .footer-icon{
+     display: flex;
+     height: 32px;
+     width: 32px;
+     color: #FFFFFF;
+ }
+ .footer-icon i{
+    margin: 5px 16px;
+ }
