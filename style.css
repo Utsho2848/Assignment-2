@@ -16,7 +16,7 @@ body{
 nav style
 -----------------------*/
 nav{
-    margin: 85px 0 0 120px;
+    margin: 50px 0 0 120px;
 }
 nav h3{
     font-weight: 700;
@@ -83,7 +83,7 @@ collection css
     margin-top: 30px;
 
 }
-.header-photo img{
+.product-photo img{
     width: 300px;
     height: 256px;
     padding: 15px;
@@ -141,11 +141,12 @@ collection css
  footer css 
  ------------------------------*/
  footer{
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #041E42;
     padding:50px;
+    width: 100%;
  }
  .footer-info h2,p{
      color:#FFFFFF;
