@@ -1,0 +1,37 @@
+@media (max-width:688px) {
+    nav{
+        display: flex;
+        justify-content: space-around;
+        margin:0;
+    }
+    .header-banner{
+        grid-template-columns: 1fr;
+    }
+    .header-info{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .header-paragraph{
+        display: flex;
+        justify-content: space-around;
+    }
+    .collections{
+        grid-template-columns:1fr;
+    }
+    .contact-area{
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+    .contact-info{
+        margin-bottom: 50px;
+        height: 200px;
+        width: 300px;
+    }
+    .footer-info{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+
+}
