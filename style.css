@@ -118,12 +118,17 @@ collection css
 /*---------------------------
  contact section 
  ----------------------------*/
-
+.contact{  
+    width: 100%;
+}
 .contact-area{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
     margin-top: 100px;
     margin-left: 200px;
+    display: flex;
+    width: 100%;
+}
+.contact-info{
+    width: 50%;
 }
 .contact-info h2{
     font-size: 28px;
@@ -135,6 +140,9 @@ collection css
 }
 .contact-info hr{
     border: 2px solid #E02C6DDE;
+    width: 50%;
+}
+.contact-map{
     width: 50%;
 }
 /*----------------------------

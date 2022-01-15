@@ -1,5 +1,5 @@
 /* ----------------
-mobile response
+tablet responsible
 ------------------*/
 
 @media (max-width:992px) {
@@ -11,9 +11,18 @@ mobile response
     .header-photo{
         margin-top: 120px;
     }
+    .header-photo img{
+        width: 300px;
+        height: 300px;
+    }
     .collections{
         grid-template-columns:repeat(2,1fr);
-        grid-column-gap: 20%;
+        grid-column-gap: 10%;
+    }
+    .product-photo img{
+        width: 250px;
+        height: 200px;
+        border-radius: 5px;
     }
     .button{
         width: 120px;
@@ -25,20 +34,23 @@ mobile response
         font-size: 16px;
     }
     .contact-area{
-        grid-template-columns: 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr;
         margin-top: 150px;
-        margin-left: 20px;
+        margin:20% 0 0 20%;
+
     }
-    .contact-info{
-        margin-bottom: 50px;
-        height: 200px;
-        width: 90%;
+    .contact-map{
+        margin: 20px 0;
     }
     .footer-info{
         display: grid;
         grid-template-columns:1fr;
     }
 }
+/* -------------------------
+mobile responsible
+---------------------------*/
 @media (max-width:688px) {
     nav{
         display: flex;
@@ -52,14 +64,11 @@ mobile response
         grid-template-columns:1fr;
     }
     .contact-area{
+        display: grid;
         grid-template-columns: 1fr;
         margin-top: 150px;
-        margin-left: 100px;
-    }
-    .contact-info{
-        margin-bottom: 50px;
-        height: 200px;
-        width: 300px;
+        margin:20% 20% 0 20%;
+
     }
     .footer-info{
         display: grid;
