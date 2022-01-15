@@ -1,3 +1,6 @@
+/* ----------------
+mobile response
+------------------*/
 @media (max-width:688px) {
     nav{
         display: flex;
@@ -6,15 +9,6 @@
     }
     .header-banner{
         grid-template-columns: 1fr;
-    }
-    .header-info{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    .header-paragraph{
-        display: flex;
-        justify-content: space-around;
     }
     .collections{
         grid-template-columns:1fr;
@@ -34,4 +28,41 @@
         grid-template-columns:1fr;
     }
 
+}
+@media (max-width:992px) {
+    nav{
+        display: flex;
+        justify-content: space-around;
+        margin:0;
+    }
+    .header-photo{
+        margin-top: 120px;
+    }
+    .collections{
+        grid-template-columns:repeat(2,1fr);
+        grid-column-gap: 20%;
+    }
+    .button{
+        width: 120px;
+        height: 30px;
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    .button:hover{
+        font-size: 16px;
+    }
+    .contact-area{
+        grid-template-columns: 1fr 1fr;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+    .contact-info{
+        margin-bottom: 50px;
+        height: 200px;
+        width: 90%;
+    }
+    .footer-info{
+        display: grid;
+        grid-template-columns:1fr;
+    }
 }
